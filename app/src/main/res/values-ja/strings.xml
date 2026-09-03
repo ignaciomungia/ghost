@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ゴースト写真の悪ふざけ</string>
+   
+    <string name="menu_settings">設定</string>
+    <string name="title_activity_main">設定</string>
+     <string name="title_activity_sec">写真</string>
+   
+    <string name="volver">終了する</string>
+	
+	<string name="addghost">+幽霊を追加</string>
+	<string name="save">保存</string>
+	<string name="share">シェア</string>
+	<string name="exit">終了する</string>
+	<string name="vertical">垂直</string>
+	<string name="horizontal">水平の</string>
+	<string name="camera">カメラ</string>
+	<string name="gallery">ギャラリー</string>
+	<string name="orientation">電話の向きを選択</string>
+	<string name="position">ゴーストの場所を選択</string>
+	<string name="efecto">あなたのゴーストを選択</string>
+	<string name="sizes">Tamaño del fantasma</string>
+	<string name="camaraogaleria">カメラやギャラリーで写真を選択</string>
+	<string name="tamanio">サイズ</string>
+	<string name="visibilidad">視認性</string>
+	<string name="brillo">強度</string>
+	<string name="blackwhite">白黒</string>
+	
+	
+    
+    <string name="title_activity_pinta">写真</string>
+    <string name="title_activity_mover_imagenes">写真</string>
+    
+    <string name="puntualo">得点してお友達と、この無料アプリを共有することは、サービス向上、感謝を作る助けて！</string>
+    
+    
+    <string name="color01">#FFFFFF</string>
+	<string name="color02">#CCFFFF</string>
+	<string name="color03">#FFCCFF</string>
+	<string name="color04">#FFFFCC</string>
+	
+	<string name="color05">#66FFFF</string>
+	<string name="color06">#99CCFF</string>
+	<string name="color07">#FF99FF</string>
+	<string name="color08">#FF9999</string>
+	<string name="color09">#FFFF99</string>
+	<string name="color10">#99FF99</string>
+	
+	
+	<string name="color11">#00FFFF</string>
+	<string name="color12">#3399FF</string>
+	<string name="color13">#FF66FF</string>
+	<string name="color14">#FF66CC</string>
+	<string name="color15">#FF6699</string>
+	<string name="color16">#FF9966</string>
+	<string name="color17">#FFCC66</string>
+	<string name="color18">#FFFF66</string>
+	<string name="color19">#66FF66</string>
+	
+	<string name="color20">#33CCCC</string>
+	<string name="color21">#0099FF</string>
+	<string name="color22">#3366FF</string>
+	<string name="color23">#9966FF</string>
+	<string name="color24">#FF00FF</string>
+	<string name="color25">#FF3399</string>
+	<string name="color26">#FF5050</string>
+	<string name="color27">#FF9933</string>
+	<string name="color28">#FFFF00</string>
+	<string name="color29">#99FF33</string>
+	<string name="color30">#33CC33</string>
+	<string name="color31">#00FF99</string>
+	
+	<string name="color32">#006699</string>
+	<string name="color33">#0066CC</string>
+	<string name="color34">#0000FF</string>
+	<string name="color35">#3333CC</string>
+	<string name="color36">#9933FF</string>
+	<string name="color37">#CC00CC</string>
+	<string name="color38">#CC3399</string>
+	<string name="color39">#CC0066</string>
+	<string name="color40">#FF0000</string>
+	<string name="color41">#CC6600</string>
+	<string name="color42">#CC9900</string>
+	<string name="color43">#99CC00</string>
+	<string name="color44">#009900</string>
+	<string name="color45">#00CC00</string>
+	<string name="color46">#00CC99</string>
+	
+	<string name="color47">#003366</string>
+	<string name="color48">#3366CC</string>
+	<string name="color49">#000099</string>
+	<string name="color50">#000066</string>
+	<string name="color51">#666699</string>
+	<string name="color52">#9900FF</string>
+	<string name="color53">#660066</string>
+	<string name="color54">#990099</string>
+	<string name="color55">#660033</string>
+	<string name="color56">#993333</string>
+	<string name="color57">#990000</string>
+	<string name="color58">#CC3300</string>
+	<string name="color59">#663300</string>
+	<string name="color60">#999966</string>
+	<string name="color61">#333300</string>
+	<string name="color62">#003300</string>
+	<string name="color63">#339933</string>
+	<string name="color64">#669999</string>
+	<string name="color65">#003366</string>
+	
+</resources>

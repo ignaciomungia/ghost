@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fantasma Foto Prank</string>
+   
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">FotoFantasma</string>
+     <string name="title_activity_sec">Foto</string>
+	
+	<string name="addghost">+Fantasma</string>
+	<string name="save">record</string>
+	<string name="share">quota</string>
+	<string name="exit">Uscire</string>
+	<string name="vertical">Verticale</string>
+	<string name="horizontal">orizzontale</string>
+	<string name="camera">Fotocamera</string>
+	<string name="gallery">Gallería</string>
+	<string name="orientation">Selezionare l orientamento del telefono</string>
+	<string name="position">Selezionare la posizione del fantoccio</string>
+	<string name="efecto">Selezionare il fantasma</string>
+	<string name="camaraogaleria">Selezionare la fotocamera o una galleria</string>
+	<string name="tamanio">Dimensione</string>
+	<string name="visibilidad">visibilità</string>
+	<string name="brillo">Intensità</string>
+	<string name="blackwhite">Bianco/Nero</string>
+	
+	
+    
+    <string name="title_activity_pinta">Foto</string>
+    <string name="title_activity_mover_imagenes">Foto</string>
+    
+    <string name="puntualo">Scoring e la condivisione di questa applicazione gratuita con i tuoi amici, ci aiuteranno a migliorare, grazie!</string>
+    
+    
+    <string name="color01">#FFFFFF</string>
+	<string name="color02">#CCFFFF</string>
+	<string name="color03">#FFCCFF</string>
+	<string name="color04">#FFFFCC</string>
+	
+	<string name="color05">#66FFFF</string>
+	<string name="color06">#99CCFF</string>
+	<string name="color07">#FF99FF</string>
+	<string name="color08">#FF9999</string>
+	<string name="color09">#FFFF99</string>
+	<string name="color10">#99FF99</string>
+	
+	
+	<string name="color11">#00FFFF</string>
+	<string name="color12">#3399FF</string>
+	<string name="color13">#FF66FF</string>
+	<string name="color14">#FF66CC</string>
+	<string name="color15">#FF6699</string>
+	<string name="color16">#FF9966</string>
+	<string name="color17">#FFCC66</string>
+	<string name="color18">#FFFF66</string>
+	<string name="color19">#66FF66</string>
+	
+	<string name="color20">#33CCCC</string>
+	<string name="color21">#0099FF</string>
+	<string name="color22">#3366FF</string>
+	<string name="color23">#9966FF</string>
+	<string name="color24">#FF00FF</string>
+	<string name="color25">#FF3399</string>
+	<string name="color26">#FF5050</string>
+	<string name="color27">#FF9933</string>
+	<string name="color28">#FFFF00</string>
+	<string name="color29">#99FF33</string>
+	<string name="color30">#33CC33</string>
+	<string name="color31">#00FF99</string>
+	
+	<string name="color32">#006699</string>
+	<string name="color33">#0066CC</string>
+	<string name="color34">#0000FF</string>
+	<string name="color35">#3333CC</string>
+	<string name="color36">#9933FF</string>
+	<string name="color37">#CC00CC</string>
+	<string name="color38">#CC3399</string>
+	<string name="color39">#CC0066</string>
+	<string name="color40">#FF0000</string>
+	<string name="color41">#CC6600</string>
+	<string name="color42">#CC9900</string>
+	<string name="color43">#99CC00</string>
+	<string name="color44">#009900</string>
+	<string name="color45">#00CC00</string>
+	<string name="color46">#00CC99</string>
+	
+	<string name="color47">#003366</string>
+	<string name="color48">#3366CC</string>
+	<string name="color49">#000099</string>
+	<string name="color50">#000066</string>
+	<string name="color51">#666699</string>
+	<string name="color52">#9900FF</string>
+	<string name="color53">#660066</string>
+	<string name="color54">#990099</string>
+	<string name="color55">#660033</string>
+	<string name="color56">#993333</string>
+	<string name="color57">#990000</string>
+	<string name="color58">#CC3300</string>
+	<string name="color59">#663300</string>
+	<string name="color60">#999966</string>
+	<string name="color61">#333300</string>
+	<string name="color62">#003300</string>
+	<string name="color63">#339933</string>
+	<string name="color64">#669999</string>
+	<string name="color65">#003366</string>
+	
+</resources>

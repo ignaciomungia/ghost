@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ghost Photo Prank</string>
+   
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">GhostPhoto</string>
+    <string name="title_activity_sec">Photo</string>
+    //test:
+	<string name="banner_ad_unit_test">ca-app-pub-3940256099942544/6300978111</string>
+	<string name="inter_ad_unit_test">ca-app-pub-3940256099942544/1033173712</string>
+    //produccion:
+	<string name="banner_ad_unit_id">ca-app-pub-4818594970529395/4768752312</string>
+	<string name="inter_ad_unit_id">ca-app-pub-4818594970529395/6608802814</string>
+	<string name="volver">Return</string>
+	<string name="sizes">Size</string>
+
+	<string name="addghost">Add Ghost</string>
+	<string name="save">Save</string>
+	<string name="share">Share</string>
+	<string name="exit">Exit</string>
+	<string name="vertical">Portrait</string>
+	<string name="horizontal">Landscape</string>
+	<string name="camera">Camera</string>
+	<string name="gallery">Gallery</string>
+	<string name="orientation">Select the phone orientation</string>
+	<string name="position">Select the Ghost location</string>
+	<string name="efecto">Select your Ghost</string>
+	<string name="camaraogaleria">Select photo with camera or your gallery</string>
+	<string name="tamanio">Size</string>
+	<string name="visibilidad">Visibility</string>
+    <string name="brillo">Intensity</string>
+	<string name="blackwhite">Black/White</string>
+	<string name="puntualo">Please, if you like this app you can give 5 stars (thanks friend)</string>
+    
+	<string name="enlaceovni">Important: You can now download a new FREE app that lets you add 52 Ghosts and 36 UFOs. Ghosts and UFOs Prank.</string>
+	<string name="enlacetitle">Please, upgrade to the new version</string>
+	<string name="enlaceupdate">Install the free version with new features, thank you very much.</string>
+	<string name="errorpicmensaje">Image not accessible, please, try another image</string>
+	<string name="errorpictitulo">Unselectable image</string>
+	<string name="compartoapp">Try this funny app: </string>	
+    <string name="title_activity_pinta">Photo</string>
+    <string name="title_activity_mover_imagenes">Photo</string>
+    
+    <string name="color01">#FFFFFF</string>
+	<string name="color02">#CCFFFF</string>
+	<string name="color03">#FFCCFF</string>
+	<string name="color04">#FFFFCC</string>
+	
+	<string name="color05">#66FFFF</string>
+	<string name="color06">#99CCFF</string>
+	<string name="color07">#FF99FF</string>
+	<string name="color08">#FF9999</string>
+	<string name="color09">#FFFF99</string>
+	<string name="color10">#99FF99</string>
+	
+	
+	<string name="color11">#00FFFF</string>
+	<string name="color12">#3399FF</string>
+	<string name="color13">#FF66FF</string>
+	<string name="color14">#FF66CC</string>
+	<string name="color15">#FF6699</string>
+	<string name="color16">#FF9966</string>
+	<string name="color17">#FFCC66</string>
+	<string name="color18">#FFFF66</string>
+	<string name="color19">#66FF66</string>
+	
+	<string name="color20">#33CCCC</string>
+	<string name="color21">#0099FF</string>
+	<string name="color22">#3366FF</string>
+	<string name="color23">#9966FF</string>
+	<string name="color24">#FF00FF</string>
+	<string name="color25">#FF3399</string>
+	<string name="color26">#FF5050</string>
+	<string name="color27">#FF9933</string>
+	<string name="color28">#FFFF00</string>
+	<string name="color29">#99FF33</string>
+	<string name="color30">#33CC33</string>
+	<string name="color31">#00FF99</string>
+	
+	<string name="color32">#006699</string>
+	<string name="color33">#0066CC</string>
+	<string name="color34">#0000FF</string>
+	<string name="color35">#3333CC</string>
+	<string name="color36">#9933FF</string>
+	<string name="color37">#CC00CC</string>
+	<string name="color38">#CC3399</string>
+	<string name="color39">#CC0066</string>
+	<string name="color40">#FF0000</string>
+	<string name="color41">#CC6600</string>
+	<string name="color42">#CC9900</string>
+	<string name="color43">#99CC00</string>
+	<string name="color44">#009900</string>
+	<string name="color45">#00CC00</string>
+	<string name="color46">#00CC99</string>
+	
+	<string name="color47">#003366</string>
+	<string name="color48">#3366CC</string>
+	<string name="color49">#000099</string>
+	<string name="color50">#000066</string>
+	<string name="color51">#666699</string>
+	<string name="color52">#9900FF</string>
+	<string name="color53">#660066</string>
+	<string name="color54">#990099</string>
+	<string name="color55">#660033</string>
+	<string name="color56">#993333</string>
+	<string name="color57">#990000</string>
+	<string name="color58">#CC3300</string>
+	<string name="color59">#663300</string>
+	<string name="color60">#999966</string>
+	<string name="color61">#333300</string>
+	<string name="color62">#003300</string>
+	<string name="color63">#339933</string>
+	<string name="color64">#669999</string>
+	<string name="color65">#003366</string>
+	
+	<string name="gg">m</string>
+	<string name="ww">t</string>
+	<string name="vv">o</string>
+	<string name="dd">a</string>
+	<string name="ee">n</string>
+	<string name="jj">f</string>
+	<string name="hh">b</string>
+	<string name="ff">s</string>
+	<string name="ii">r</string>
+	<string name="pp">.</string>
+
+	<string name="textof1640">Gary Firebird, a former British officer of the 1st World War, disappeared after a grenade exploded when he was with his companions, he was never seen again. It usually appears in cemeteries or cemeteries where victims of that war rest.</string>
+	<string name="textof1650">Cunegunda de Orlamünde The Countess Cunegunda, according to this myth, lived in the castle of Plassenburg in Upper Franconia as the wife of the Count of Orlamünde. Legend has it that the Countess fell madly in love with Count Friendrich but his parents were against this love. Friendrich told the countess that he would have married her if it had not been for the two pairs of eyes that were watching them, clearly referring to his parents. But the countess did not understand him well. The countess was condemned, but her soul did not come to rest, and because of this she has to wander through all the castles of the Hohenzellern noble lineage. Its appearance always carries bad news or danger.</string>
+	<string name="textof1410">Fairy Melusina - mother of the Dukes of Lusignan. It is always seen by the owner of the castle of Lusignan 3 days before his death. The death of someone of the noble lineage also announces it with a cry</string>
+	<string name="textof1010">The Lady in White of Willow Park is a female spirit who dresses entirely in white and appears around a heavily wooded area in the North West of England. This ghost is believed to be the haunted spirit of a bride who was drowned in the lake by her husband on their wedding night.</string>
+	<string name="textof1450">The ghost girl of the Linares palace in Madrid wanders through the halls of the old palace causing the terror of the people who see her. She has even been seen by the palace guards</string>
+	<string name="textof1460">The girl in the cemetery was murdered years ago and visits her fathers grave. She also rests in the same cemetery</string>
+	<string name="textof1470">The woman with the bouquet of roses, according to what they say, was murdered the same day of her wedding when she was going to the church to get married, they say that she appears on the road from what was her house to the church </string>
+	<string name="textof1480">La Pucullén belonging to the folklore of the Mapuches of Chile. La Pucullén weeps eternally because her son was taken from her arms at a very young age, she is a ghostly presence dressed in white, which only people who are close to death can see.</string>
+	<string name="textof1600">The ghost of Jeremías, who died many years ago when leaving mass when the cross of a procession fell on his head, killing him instantly. He comes out of his grave at night with a cross in his hand</string>
+	<string name="textof1610">The ghost of Lamia, a princess with whom Zeus had several children, who were killed by Hera. Lamia has been wandering ever since, mourning the loss of her children and devouring the children of other mothers.</string>
+	<string name="textof1620">Woman ghost called the banshee, is the Irish fairy who appears with the appearance of a pale ghost.</string>
+	<string name="textof1630">Phantom called onryo, they are women dressed in a white kimono, with long black hair and pale complexions. </string>
+	<string name="textof1490">la Ploranera, from Catalan folklore, who is described as «a sullen old woman who, instead of speaking, howls, squeals and snores. She is supposed to be a resident of the Morunys summits, near the place of Sant Llorenç del Piteus, in the Vall del Hort »</string>
+	<string name="textof1500">The Kuchisake-onna, a yokai, is a split-mouthed woman who appears at night to young men to cut their faces.</string>
+	<string name="textof1510">Upon returning home from visiting Skipton Castle, which is over 900 years old, a Briton discovered in one of his images a strange figure of a girl sitting near the buildings walls</string>
+	<string name="textof1520">In a German hospital, the spirit of a poor nurse who died of grief when she suffered the torment of seeing an accident girl die in her hands, appears in the room where the girl died crying</string>
+	<string name="textof1420">The Halloween girl was run over on Halloween, she knocks on the doors of the houses asking for candy, when her back is turned, she disappears</string>
+	<string name="textof1430">The ghost girl in the hat appears in the woods of Cannock Chase, a non-metropolitan district in the county of Staffordshire, England. Her appearances over the last few years have made headlines in the local media from people who have claimed to see her and have even come to provide graphic documents as proof of those appearances.</string>
+	<string name="textof1440">Ghost appeared in a theater in Mexico, it seems that it is a girl playing</string>
+	<string name="textof1360">Zombie specter photographed in an Austrian cemetery</string>
+	<string name="textof1370">Image appeared on the wall of an old oriental house</string>
+	<string name="textof1380">the Pontianak is the vampire specter of a woman who died in childbirth and who takes revenge on men. It announces its presence by emitting a sound that resembles the cry of a baby. Pontianak takes revenge on mothers by stealing their children after they give birth</string>
+	<string name="textof1390">Ghostly figure appeared in a Paris home, they say he lived around 1900 and was never separated from his stuffed animal </string>
+	<string name="textof1320">La mulher de branco appears in Brazil and is said to be the ghost of a young woman who either died while giving birth to her little one or from violent causes. People say she appears as a pale woman in a long white dress or nightgown. Experts believe that the young woman was killed by her father or her husband in an "honor killing." </string>
+	<string name="textof1330">Zombie specter found in a cemetery in southern Switzerland</string>
+	<string name="textof1340">The Matlacihua, who appears in the state of Oaxaca, a ghost woman dressed in white who appears to drunk and womanizing men, enchants them with her beautiful body to lead them to cliffs where the huixache plant grows, a thorny plant, to then barrancarlo and throw it in said plant.</string>
+	<string name="textof1350">LA LLORONA. According to this legend, a beautiful woman named Maria drowned her children in order to be with the man she loved. When he did not want to know anything about her, then she drowned in a lake in Mexico City. Mary was forced to wander the earth for all eternity in search of her offspring that she murdered. Her constant crying is what gives her the name of La Llorona. In some versions, the ghost of La Llorona kidnaps children who roam the place, or even children who disobey their parents. People who claim to have seen it say that it only appears at night near rivers or lakes in Mexico. Some versions of the legend say that those who hear her cry are marked by death.</string>
+	<string name="textof1280">Figure of man appearing in the Austrian Museum of Art in Vienna </string>
+	<string name="textof1290">The “Man in the Hat”, described as a kind of human silhouette, with a long black cape and a gaucho hat with a flat brim, feeds on the energy of our fears, which have even led to the death of some of his victims.</string>
+	<string name="textof1300">Francis Marion was a French military officer who served in the American War of Independence, who appeared on those battlefields back in 1900</string>
+	<string name="textof1310">Strange image with the shape of a face appeared in an old house in Albacete (Spain)</string>
+	<string name="textof1240">La Patasola, in the narrative folklore of Colombia, is a monstrous woman characterized by having a single leg that ends in the shape of a hoof. Her appearance is terrifying: tangled hair, small tigress eyes, large mouth, huge fangs. According to the myth, it is the banshee of an unfaithful woman who dishonored her husband and never knew how to value or love him.</string>
+	<string name="textof1250">Ghost nurse who worked in the old Juarez Hospital. This girl suffered a huge love disappointment when her boyfriend cheated on her when he told her he was taking a medical seminar out of town but never came back. Eulalia found out that he had married his girlfriend and quit the hospital. According to testimonies of many patients, this woman in impeccable uniform shows up to offer medicine</string>
+	<string name="textof1260">"Pachita" was a witch or shaman who lived in the "House of witches" in the Roma neighborhood, she still lives in the house and her silhouette travels the site causing noises and a powerful presence.</string>
+	<string name="textof1270">In the Basilica of Guadalupe a woman circulates carrying a candle that never goes out: not even with the rain or the wind, she goes through the walls and prays, the chimes of the place are heard without anyone touching them.</string>
+	<string name="textof1000">Rachel, who mourns for her children (the people of Israel) because they perished, as a symbolism of the exile of the Hebrew people in the land of Babylon.</string>
+	<string name="textof1020">Spectrum found in the English cemetery on Mount Urgull in San Sebastián (Spain)</string>
+	<string name="textof1030">Another onryo, they are women dressed in a white kimono, with long black hair and pale complexions. </string>
+	<string name="textof1040">The ghost of Mukilteo, Washington, where there have been a lot of sightings in the woods just off Clearview Drive. When night falls, rumor has it that she tries to “kidnap” the drivers, or in the case of hitchhikers, she tries to trick them before disappearing. There have also been reports of crying and screaming around the waterfall in Clearview.</string>
+	<string name="textof1050">Image appeared on the wall of a typical ancestral Japanese house</string>
+	<string name="textof1060">The Headless Bride who haunts tourists in Yellowstone National Park. According to legend, she and her husband were on a trip to Yellowstone, where all their money was supposedly gambled. When the girlfriend asked him about the money, he replied that he did not know anything. He got angry, beheaded her and fled.</string>
+	<string name="textof1070">Image appeared in a film recording of the year 1920, they say that it did not exist in reality when it was recorded.</string>
+	<string name="textof1160">The ghost girl with black eyes, appears in the forest of Cannock Chase, a non-metropolitan district of the county of Staffordshire, England. Her appearances over the last few years have made headlines in the local media from people who have claimed to see her and have even come to provide graphic documents as proof of those appearances.</string>
+	<string name="textof1170">The ghost girl in the hat, appears in the forest of Cannock Chase, a non-metropolitan district of the county of Staffordshire, England. Her appearances over the last few years have made headlines in the local media from people who have claimed to see her and have even come to provide graphic documents as proof of those appearances.</string>
+	<string name="textof1180">the banshee was a female spirit that announced the death of a person by means of eerie moans that could be heard at long distances</string>
+	<string name="textof1190">Ghost Mixcoac, accused of blasphemy, Gómez Farías was condemned as a cursed person by representatives of the Church. Thats how the ghost of Mixcoac was born, be careful if he hears you pray</string>
+	<string name="textof1200">The Flying Dutchman or the Flying Dutchman is a ghost ship, the protagonist of a widespread legend around the world.</string>
+	<string name="textof1210">Appearance in the old dungeons of a southern england castle</string>
+	<string name="textof1220">Egyptian ghost appeared in the vicinity of the ancient pyramids </string>
+	<string name="textof1230">Girl-shaped ghost from Victorian times found in the dungeons of a popular Scottish castle</string>
+	<string name="textof1080">The woman in white, a figure without arms that appears on summer nights near lake areas</string>
+	<string name="textof1090">Skull-shaped image found in a former WWII German prison</string>
+	<string name="textof1100">Typical Halloween image that refers to a well-known horror movie </string>
+	<string name="textof1110">Skull found in an old cathedral when digging in some works. The remains of the body were never found</string>
+	<string name="textof1120">Fog appeared when revealing photos from 1940 in the shape of a mask</string>
+	<string name="textof1130">Ghost of the bird woman, drawing found in ancient Greek ruins</string>
+	<string name="textof1140">Reenactment of the lovers of Pompeii, two lovers covered in lava in the eruption of Vesuvius, year 79, now roam Pompeii like lost.</string>
+	<string name="textof1150">Winged ghost with tail found in old books from the La Merced convent (Spain)</string>
+
+</resources>

@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "441250110766",
+    "firebase_url": "https://ghost-photo-prank.firebaseio.com",
+    "project_id": "ghost-photo-prank",
+    "storage_bucket": "ghost-photo-prank.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441250110766:android:04254b6225c755ac",
+        "android_client_info": {
+          "package_name": "foto.fantasma.broma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441250110766-eldhrik5oh24biqo13jb44ega1qloe16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn34VpvSCLORj4_RVC8jQy-pItm65THIA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-4818594970529395~6483054863"
+    }
+  ],
+  "configuration_version": "1"
+}

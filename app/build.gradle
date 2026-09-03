@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+
+// Lee las credenciales de firma desde keystore.properties (nunca se sube al repo:
+// en CI lo genera el workflow a partir de GitHub Secrets; en local lo creas tú a mano
+// copiando keystore.properties.example).
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+def keystoreProperties = new Properties()
+def hasSigningConfig = keystorePropertiesFile.exists()
+if (hasSigningConfig) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+android {
+    compileSdk 35
+    namespace "foto.fantasma.broma"
+    //buildToolsVersion '34.0.0'
+
+    defaultConfig {
+        applicationId "foto.fantasma.broma"
+        minSdk 23
+        targetSdk 35
+        versionCode 10935
+        versionName 'A935'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    if (hasSigningConfig) {
+        signingConfigs {
+            release {
+                storeFile file(keystoreProperties['storeFile'])
+                storePassword keystoreProperties['storePassword']
+                keyAlias keystoreProperties['keyAlias']
+                keyPassword keystoreProperties['keyPassword']
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            multiDexEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            if (hasSigningConfig) {
+                signingConfig signingConfigs.release
+            }
+        }
+    }
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+
+    productFlavors {
+    }
+}
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.7.1'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.android.gms:play-services-ads:23.0.0'
+}
+apply plugin: 'com.google.gms.google-services'

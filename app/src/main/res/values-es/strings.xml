@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fantasma Foto Broma</string>
+   
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">FotoFantasma</string>
+     <string name="title_activity_sec">Foto</string>
+   
+    <string name="volver">volver</string>
+	<string name="sizes">Tamaño del fantasma</string>
+	
+	<string name="addghost">+Fantasma</string>
+	<string name="save">Guardar</string>
+	<string name="share">Compartir</string>
+	<string name="exit">Salir</string>
+	<string name="vertical">Vertical</string>
+	<string name="horizontal">Horizontal</string>
+	<string name="camera">Cámara</string>
+	<string name="gallery">Galería</string>
+	<string name="orientation">Selecciona la orientación del teléfono</string>
+	<string name="position">Selecciona la posición del fantasma</string>
+	<string name="efecto">Selecciona el fantasma</string>
+
+	<string name="camaraogaleria">Selecciona la cámara o tu galería</string>
+	<string name="tamanio">Tamaño</string>
+	<string name="visibilidad">Visibilidad</string>
+	 <string name="brillo">Intensidad</string>
+	<string name="blackwhite">Blanco/Negro</string>
+	<string name="compartoapp">Prueba esta divertida app: </string>	
+    
+    <string name="title_activity_pinta">Foto</string>
+    <string name="title_activity_mover_imagenes">Foto</string>
+    <string name="puntualo">Por favor, si te gusta esta app puedes darle 5 estrellas (gracias amigo)</string>
+    <string name="enlaceovni">Importante: Ya puedes descargar la nueva app GRATIS Broma de Ovnis y Fantasmas, con 52 Fantasmas y 36 Ovnis.</string>
+    
+    <string name="enlacetitle">Por favor, actualice a la nueva versión</string>
+	<string name="enlaceupdate">Instale la versión gratis con nuevas funcionalidades, muchas gracias.</string>
+    <string name="errorpicmensaje">Imagen no accesible, por favor, pruebe con otra imagen</string>
+	<string name="errorpictitulo">Imagen no seleccionable</string>
+    <string name="color01">#FFFFFF</string>
+	<string name="color02">#CCFFFF</string>
+	<string name="color03">#FFCCFF</string>
+	<string name="color04">#FFFFCC</string>
+	
+	<string name="color05">#66FFFF</string>
+	<string name="color06">#99CCFF</string>
+	<string name="color07">#FF99FF</string>
+	<string name="color08">#FF9999</string>
+	<string name="color09">#FFFF99</string>
+	<string name="color10">#99FF99</string>
+	
+	
+	<string name="color11">#00FFFF</string>
+	<string name="color12">#3399FF</string>
+	<string name="color13">#FF66FF</string>
+	<string name="color14">#FF66CC</string>
+	<string name="color15">#FF6699</string>
+	<string name="color16">#FF9966</string>
+	<string name="color17">#FFCC66</string>
+	<string name="color18">#FFFF66</string>
+	<string name="color19">#66FF66</string>
+	
+	<string name="color20">#33CCCC</string>
+	<string name="color21">#0099FF</string>
+	<string name="color22">#3366FF</string>
+	<string name="color23">#9966FF</string>
+	<string name="color24">#FF00FF</string>
+	<string name="color25">#FF3399</string>
+	<string name="color26">#FF5050</string>
+	<string name="color27">#FF9933</string>
+	<string name="color28">#FFFF00</string>
+	<string name="color29">#99FF33</string>
+	<string name="color30">#33CC33</string>
+	<string name="color31">#00FF99</string>
+	
+	<string name="color32">#006699</string>
+	<string name="color33">#0066CC</string>
+	<string name="color34">#0000FF</string>
+	<string name="color35">#3333CC</string>
+	<string name="color36">#9933FF</string>
+	<string name="color37">#CC00CC</string>
+	<string name="color38">#CC3399</string>
+	<string name="color39">#CC0066</string>
+	<string name="color40">#FF0000</string>
+	<string name="color41">#CC6600</string>
+	<string name="color42">#CC9900</string>
+	<string name="color43">#99CC00</string>
+	<string name="color44">#009900</string>
+	<string name="color45">#00CC00</string>
+	<string name="color46">#00CC99</string>
+	
+	<string name="color47">#003366</string>
+	<string name="color48">#3366CC</string>
+	<string name="color49">#000099</string>
+	<string name="color50">#000066</string>
+	<string name="color51">#666699</string>
+	<string name="color52">#9900FF</string>
+	<string name="color53">#660066</string>
+	<string name="color54">#990099</string>
+	<string name="color55">#660033</string>
+	<string name="color56">#993333</string>
+	<string name="color57">#990000</string>
+	<string name="color58">#CC3300</string>
+	<string name="color59">#663300</string>
+	<string name="color60">#999966</string>
+	<string name="color61">#333300</string>
+	<string name="color62">#003300</string>
+	<string name="color63">#339933</string>
+	<string name="color64">#669999</string>
+	<string name="color65">#003366</string>
+	<string name="textof1640">Gary Firebird antiguo oficial británico de la 1ª guerra mundial desapareció después del estallido una granada cuando se encontraba con sus compañeros, nunca más se le volvió a ver. Se suele aparecer en los cementerios o camposantos donde descansan víctimas de aquella guerra.</string>
+	<string name="textof1650">Cunegunda de Orlamünde  La condesa Cunegunda, según este mito, vivió en el castillo de Plassenburg en Alta Franconia siendo esposa del conde de Orlamünde. La leyenda dice que la condesa se enamoró locamente del conde Friendrich pero los padres de este estaban en contra de este amor. Friendrich le decía a la condesa que se hubiera casado con ella si no hubiera sido por los dos pares de ojos que los estaban vigilando, refiriéndose claramente a sus padres. Pero la condesa no le entendió bien. La condesa fue condenada, pero su alma no llegó al sosiego, y debido a esto tiene que vagar por todos los castillos del linaje de los nobles de Hohenzellern. Su aparición siempre conlleva una mala noticia o un peligro. </string>
+	<string name="textof1410">hada Melusina - madre de los duques de Lusignan. Está la ve siempre el dueño del castillo de Lusignan 3 días antes de que fallezca. La muerte de alguien del linaje noble también lo anuncia con un llanto</string>
+	<string name="textof1010">La dama de blanco de Willow Park es un espíritu femenino que viste completamene de blanco y que se aparece por los alrededores de una zona muy boscosa del noroeste de Inglaterra.  Este fantasma se cree que es el espíritu atormentado de una novia que fue ahogada en el lago por su marido en su noche de bodas. </string>
+	<string name="textof1450">La niña fantasma del palacio de Linares en Madrid vaga por los salones del antiguo palacio causando el terror de las personas que la ven. Icluso ha sido vista por los vigilantes del palacio</string>
+	<string name="textof1460">La niña del cementerio fue asesinada hace años y visita la tumba de su padre. Ella también reposa en el mismo cementerio </string>
+	<string name="textof1470">La mujer del ramo de rosas según cuentan, fue asesinada el mismo día de su boda cuando se dirigía a la iglesia a casarse, dicen que se aparece en el camino de la que fue su casa a la iglesia </string>
+	<string name="textof1480">La Pucullén perteneciente al folclor de los mapuches de Chile. La Pucullén llora eternamente porque le quitaron a su hijo de sus brazos a muy corta edad.​ Es una presencia fantasmal vestida de blanco,​ a la que solo puede ver la gente que está cercana a la muerte.</string>
+	<string name="textof1600">El fantasma de Jeremías, que murió hace muchos años al salir de misa cuando le calló la cruz de una procesión en la cabeza matándolo al instante. Sale de su tumba por las noches con una cruz en la mano</string>
+	<string name="textof1610">El fantasma de Lamia, una princesa con quien Zeus había tenido varios hijos, que fueron asesinados por Hera. Lamia vagaba desde entonces lamentándose por la pérdida de sus hijos y devorando a los niños de otras madres.</string>
+	<string name="textof1620">Fantasma de mujer llamada la banshee, es el hada irlandesa que aparece con el aspecto de un fantasma pálido.</string>
+	<string name="textof1630">Fantasma llamado onryo, son mujeres ataviadas con un kimono blanco, con el cabello largo y negro y la tez pálida. </string>
+	<string name="textof1490">la Ploranera, del folclor catalán, que es descrita como «una vieja huraña que, en vez de hablar, aúlla, chilla y ronca. Se la supone residente en las cumbres de los Morunys, cerca del lugar de Sant Llorenç del Piteus, en la Vall del Hort»</string>
+	<string name="textof1500">La Kuchisake-onna, un yokai, es una mujer con la boca partida que se aparece por las noches a hombres jóvenes para cortales la cara.</string>
+	<string name="textof1510">Al volver a casa tras visitar el castillo Skipton, de más de 900 años de antigüedad, un británico descubrió en una de sus imágenes una extraña figura de una niña sentada cerca de los muros del edificio</string>
+	<string name="textof1520">En un hospital aleman vaga el espíritu de una pobre enfermera que murió de pena cuando sufrio el tormento de ver morir una niña accidenteda en sus manos, se aparece en la habitación donde murió la niña llorando</string>
+	<string name="textof1420">La niña de Halloween fue atropellada el día de halloween, llama a las puertas de las casas pidiendo caramelos, cuando se le da la espalda desaparece</string>
+	<string name="textof1430">La niña fantasma del sombrero se aparece en el bosque de Cannock Chase, un distrito no metropolitano del condado de Staffordshire, Inglaterra. Sus apariciones a lo largo de los últimos años han llegado a ocupar titulares en los medios locales de personas que han afirmado verla e incluso han llegado a aportar documentos gráficos como prueba de esas apariciones.</string>
+	<string name="textof1440">Fantasma aparecido en un teatro de México, parece que se trata de una niña jugando</string>
+	<string name="textof1360">Espectro Zombi fotografiado en un cementerio de Austria</string>
+	<string name="textof1370">Imagen aparecida en la pared de una casa oriental antigua</string>
+	<string name="textof1380">la Pontianak es el espectro vampírico de una mujer que murió al dar a luz y que se venga de los hombres. Anuncia su presencia emitiendo un sonido que semeja el llanto de un bebé. La Pontianak se venga de las madres robándose a sus hijos después de que estas dan a luz</string>
+	<string name="textof1390">Figura fantasmal aparecida en un domicilio de Paris, aseguran que vivió por 1900 y nunca se separaba de su peluche  </string>
+	<string name="textof1320">La mulher de branco se aparece en Brasil y se dice que es el fantasma de una mujer joven que, o bien murió mientras daba a luz a su pequeño o por causas violentas. La gente dice que aparece como una mujer pálida con un vestido largo y blanco o con una bata de dormir. Los expertos creen que la joven mujer fue asesinada por su padre o su esposo en un “asesinato de honor”. </string>
+	<string name="textof1330">Espectro Zombi aparecido en un cementerio del sur de Suiza</string>
+	<string name="textof1340">la Matlacihua, que se aparece en el estado de Oaxaca, una mujer fantasma vestida de blanco que se le aparece a los hombres borrachos y mujeriegos, los hechiza con su hermoso cuerpo para llevarlos a precipicios donde crece la planta huixache, un planta espinosa, para luego enbarrancarlo y tirarlo en dicha planta.</string>
+	<string name="textof1350">LA LLORONA. Según dice esta leyenda, una hermosa mujer llamada María ahogó a sus hijos con el fin de estar con el hombre que amaba. Cuando él no quiso saber nada de ella, entonces ella se ahogó en un lago en la ciudad de México. María se vio obligada a vagar por la tierra durante toda la eternidad en busca de su descendencia que asesinó. Su llanto constante es lo que le da el nombre de La Llorona. En algunas versiones, el fantasma de la Llorona secuestra a los niños que vagan por el lugar, o incluso a los niños que desobedecen a sus padres. Las personas que afirman haberla visto dicen que solo aparece en la noche cerca de los ríos o lagos en México. Algunas versiones de la leyenda cuentan que los que escuchan su llanto están marcados por la muerte.</string>
+	<string name="textof1280">Figura de hombre que se aparece en el museo austriaco del arte de Viena </string>
+	<string name="textof1290">El “Hombre del Sombrero”, descrito como una especie de silueta humana, con una capa larga negra y un sombrero de gaucho con borde plano, se alimenta de la energía de nuestros miedos, que incluso han llevado a la muerte algunas de sus víctimas.</string>
+	<string name="textof1300">Francis Marion fue un oficial militar francés que sirvió en la Guerra de la Independencia de los Estados Unidos, que se aparecía en esos campos de batalla allá por 1900</string>
+	<string name="textof1310">Extraña imagen con forma de rostro aparecida en una antigua casa de Albacete (España)</string>
+	<string name="textof1240">La Patasola, en el folclor narrativo de Colombia, es una mujer monstruosa que se caracteriza porque tiene una sola pierna que termina en forma de pezuña​ Su aspecto es aterrador: cabellera enmarañada, pequeños ojos de tigresa, boca grande, colmillos enormes. Según el mito, es el alma en pena de una mujer infiel que deshonró a su marido​ y nunca lo supo valorar ni querer.</string>
+	<string name="textof1250">Enfermera fantasma que trabajó en el viejo Hospital Juárez. Esta chica sufrió una enorme decepción amorosa cuando su novio la engañó cuando le dijo que tomaría un seminario médico fuera de la ciudad pero nunca regresó. Eulalia se enteró de que se había casado con su novia y renunciado al hospital. Según testimonios de muchos pacientes, esta mujer de uniforme impecable se aparece para ofrecer medicinas</string>
+	<string name="textof1260">"Pachita" fue una bruja o chamana que Vivía en la “Casa de las brujas” en la colonia Roma, vive aún en la casa y su silueta recorre el sitio causando ruidos y una presencia poderosa.</string>
+	<string name="textof1270">En la Basílica de Guadalupe circula una mujer que carga una vela que nunca se apaga: ni con las lluvias o el viento, atraviesa las paredes y reza, las campanadas del lugar son escuchadas sin que nadie las toque.</string>
+	<string name="textof1000">Raquel, quien llora por sus hijos (el pueblo de Israel) porque perecieron, como un simbolismo del exilio del pueblo hebreo en la tierra de Babilonia.</string>
+	<string name="textof1020">Espectro aparecido en el cementerio de los ingleses en el monte Urgull de San Sebastián (España)</string>
+	<string name="textof1030">Otro onryo, son mujeres ataviadas con un kimono blanco, con el cabello largo y negro y la tez pálida. </string>
+	<string name="textof1040">El fantasma de Mukilteo, Washington, donde ha habido una gran cantidad de avistamientos en el bosque justo al lado de Clearview Drive. Cuando cae la noche, corre el rumor de que ella trata de “secuestrar” a los conductores, o en el caso de los autoestopistas les intenta engañar antes de desaparecer. También ha habido informes de llantos y gritos alrededor de la cascada en Clearview.</string>
+	<string name="textof1050">Imagen aparecida en la pared de una típica casa japonesa ancestral</string>
+	<string name="textof1060">La novia sin cabeza, que atormenta a los turistas en el Parque Nacional Yellowstone. Según cuenta la leyenda, ella y su esposo estaban de viaje en Yellowstone, donde supuestamente se jugó todo su dinero. Cuando la novia le preguntó por el dinero, él le respondió que no sabía nada. Se enojó, la decapitó y huyó.</string>
+	<string name="textof1070">Imagen aparecida en una grabación de cine del año 1920, cuentan que no existía en la realidad cuando se grababa.</string>
+	<string name="textof1160">La niña fantasma de ojos negros, se aparece en el bosque de Cannock Chase, un distrito no metropolitano del condado de Staffordshire, Inglaterra. Sus apariciones a lo largo de los últimos años han llegado a ocupar titulares en los medios locales de personas que han afirmado verla e incluso han llegado a aportar documentos gráficos como prueba de esas apariciones.</string>
+	<string name="textof1170">La niña fantasma del sombrero, se aparece en el bosque de Cannock Chase, un distrito no metropolitano del condado de Staffordshire, Inglaterra. Sus apariciones a lo largo de los últimos años han llegado a ocupar titulares en los medios locales de personas que han afirmado verla e incluso han llegado a aportar documentos gráficos como prueba de esas apariciones.</string>
+	<string name="textof1180">la banshee era un espíritu femenino que anunciaba la muerte de una persona mediante sobrecogedores gemidos que podían escucharse a largas distancias</string>
+	<string name="textof1190">Fantasma Mixcoac, acusado de blasfemia, Gómez Farías fue condenado como persona maldita por representantes de la Iglesia. Nace así entonces el fantasma de Mixcoac, cuidado si te escucha orar</string>
+	<string name="textof1200">El holandés errante o el holandés volador es un barco fantasma, protagonista de una leyenda muy extendida alrededor del mundo.</string>
+	<string name="textof1210">Aparición en los antiguos calabozos de un castillo del sur de inglaterra</string>
+	<string name="textof1220">Fantasma egipcio aparecido en las proximidades de las antiguas pirámides </string>
+	<string name="textof1230">Fantasma con forma de niña de la época victoriana aparecido en las mazmorras de un conocido castillo de Escocia</string>
+	<string name="textof1080">La mujer de blanco, figura sin brazos que se aparece las noches de verano cerca de zonas lacustres</string>
+	<string name="textof1090">Imagen con forma de calavera aparecida en una antigua prisión alemana de la 2ª guerra mundial</string>
+	<string name="textof1100">Imagen típica de halloween que hace alusión a una conocida película de terror </string>
+	<string name="textof1110">Calavera aparecida en una antigua catedral al escarbar en unas obras. Nunca se encontró el restro del cuerpo</string>
+	<string name="textof1120">Niebla aparecida al revelar unas fotos de 1940 con forma de máscara</string>
+	<string name="textof1130">Fantasma de la mujer pájaro, dibujo encontrado en unas antiguas ruinas griegas</string>
+	<string name="textof1140">Recreación de los amantes de ponpeya, dos amantes cubiertos de lava en la erupción del Vesubio, año 79, ahora vagan por pompeya como perdidos.</string>
+	<string name="textof1150">Fantasma alado con cola encontrado en antiguos libros del convento de la Merced (España)</string>
+
+</resources>

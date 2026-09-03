@@ -1,0 +1,150 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" 
+                android:id="@+id/principal">              
+          
+        
+ 
+ <LinearLayout 
+     	android:id="@+id/layoutcambios2"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	android:orientation="horizontal"
+    	android:background="#64708090">
+			      <TextView 
+     				android:textSize="15sp"
+     				android:layout_width="75dp"
+     				android:layout_height="wrap_content"
+     				android:text="@string/tamanio"
+					android:textColor="@color/LemonChiffon"/>
+		
+			      <ImageButton
+                    android:src="@drawable/mas2"
+                    android:scaleType="centerInside" 
+                        android:onClick="aumentarTamanio"   
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="#50708090"/>
+				
+				<ImageButton
+                    android:src="@drawable/minus2" 
+                    android:scaleType="centerInside"
+                        android:onClick="disminuirTamanio"  
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+				 	android:background="#50708090"/>
+				
+</LinearLayout> 
+				
+				
+<LinearLayout 
+    android:id="@+id/layoutcambios3"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	android:orientation="horizontal"
+    	android:background="#64778899">
+			    <TextView 
+     				android:textSize="15sp"
+     				android:layout_width="75dp"
+     				android:layout_height="wrap_content"
+     				android:text="@string/visibilidad"
+     				android:textColor="@color/FloralWhite"/>
+							
+				<ImageButton
+                    android:src="@drawable/mas2"
+
+                    android:scaleType="centerInside" 
+                        android:onClick="aumentarVisibilidad"   
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+					android:background="#50708090"/>
+			
+                  <ImageButton
+                    	android:src="@drawable/minus2"
+
+                    	android:scaleType="centerInside" 
+                        android:onClick="disminuirVisibilidad"   
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                  		android:background="#50708090"/>
+				
+</LinearLayout>
+
+
+<LinearLayout 
+        android:id="@+id/layoutcambios4"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	android:orientation="horizontal"
+    	android:background="#64778899">
+
+    <TextView 
+     				android:textSize="15sp"
+     				android:layout_width="75dp"
+     				android:layout_height="wrap_content"
+     				android:text="@string/brillo"
+     				android:textColor="@color/LemonChiffon"/>		
+				<ImageButton
+                    android:src="@drawable/mas2"
+                    android:scaleType="centerInside" 
+                        android:onClick="aumentarBrillo"   
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+					android:background="#50708090"/>
+                  <ImageButton
+                    	android:src="@drawable/minus2"
+
+                    	android:scaleType="centerInside" 
+                        android:onClick="disminuirBrillo"   
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                  		android:background="#50708090"/>
+</LinearLayout>
+<LinearLayout 
+        android:id="@+id/layoutcambios5"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	android:orientation="horizontal"
+    	android:background="#64778899">
+			    <TextView 
+     				android:textSize="15sp"
+     				android:layout_width="75dp"
+     				android:layout_height="wrap_content"
+     				android:text="@string/blackwhite"
+     				android:textColor="@color/FloralWhite"/>		
+				<ImageButton
+                    android:src="@drawable/blackwhite"
+
+                    android:scaleType="centerInside" 
+                        android:onClick="blancoNegro"   
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:background="#50708090"/>
+                 
+</LinearLayout>
+<LinearLayout 
+        android:id="@+id/layoutcambios6"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	android:orientation="horizontal"
+    	android:background="#64778899"> 
+			<ImageButton
+                    android:src="@drawable/cerrar"
+                    android:scaleType="centerInside" 
+                    android:onClick="cerrarPopup"   
+                    android:layout_width="95dp"
+                    android:layout_height="40dp"
+                    android:background="@null"/>
+			 <ImageButton
+                    	android:src="@drawable/reload"
+
+                    	android:scaleType="centerInside" 
+                        android:onClick="recargar"   
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:background="#50708090"/>	
+    	    
+ </LinearLayout>
+  </LinearLayout>
+        

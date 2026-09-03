@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Black"
+    android:orientation="vertical" >
+
+ 
+		
+			
+ <TextView 
+     android:textSize="20sp"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text="@string/puntualo"     
+     android:textColor="@color/GhostWhite"
+     android:background="@color/Black"/>
+
+    <ImageButton
+        android:id="@+id/puntualo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@null"
+        android:contentDescription="1000"
+        android:onClick="puntuar"
+        android:scaleType="centerInside"
+        android:src="@drawable/puntualo" />
+    
+     <ImageButton
+         android:id="@+id/volver2"
+         android:layout_width="match_parent"
+         android:layout_height="150dp"
+         android:layout_gravity="center"
+         android:background="@null"
+         android:contentDescription="1000"
+         android:onClick="volver"
+         android:scaleType="centerInside"
+         android:src="@drawable/volver2" />
+    <FrameLayout
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"/>
+</LinearLayout>

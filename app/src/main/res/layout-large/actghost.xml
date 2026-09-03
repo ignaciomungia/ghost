@@ -1,0 +1,199 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondoghost"
+    android:orientation="vertical" >
+    <FrameLayout
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"/>
+    <View
+        android:id="@+id/SplitLine_hor1"
+        android:layout_width="match_parent"
+        android:layout_height= "3dp"
+        android:background="@color/Aqua"/>
+  <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+		  <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+			<TableLayout
+                android:id="@+id/tablaimagenesactghost"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@null"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical" >
+ <TextView 
+     android:textSize="25sp"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text="@string/orientation"     
+     android:textColor="@color/GhostWhite"
+     android:background="@null"/>
+ <TableRow android:gravity="bottom">
+  
+    <ImageButton
+        android:id="@+id/fvertical"
+        android:src="@drawable/framev" 
+        android:scaleType="centerInside"
+        android:onClick="avanzar"   
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:layout_weight="1"     
+        android:background="@null"                                  
+        android:contentDescription="1000"/>
+     <ImageButton
+        android:id="@+id/fhorizontal"
+        android:src="@drawable/frameh" 
+        android:scaleType="centerInside"
+        android:onClick="avanzar"   
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"             
+        android:background="@null"                        
+        android:contentDescription="1000"/>
+</TableRow>
+ 
+
+    
+ <RadioGroup
+     android:id="@+id/radioGroup1"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal" >
+
+    <RadioButton
+			android:layout_width="0dp"       	
+        	android:layout_weight="1"     
+            android:layout_height="wrap_content" 
+            
+            android:textSize="25sp"
+            android:text="@string/vertical" 
+            android:id="@+id/r1"
+            android:textColor="@color/GhostWhite">
+        
+        </RadioButton>
+        <RadioButton 
+            android:layout_width="0dp"       	
+        	android:layout_weight="1"     
+            android:layout_height="wrap_content" 
+            android:checked="true" 
+            android:textSize="25sp"
+            android:text="@string/horizontal" 
+            android:id="@+id/r2"
+            android:textColor="@color/GhostWhite">
+        </RadioButton>
+     
+ </RadioGroup>
+<TableRow>
+      <ImageButton
+        android:id="@+id/vacio"  
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"                   
+        android:background="@null"
+        android:contentDescription="1000"/>
+  </TableRow>
+<TableRow>
+  <ImageButton
+        android:id="@+id/avanzar"
+        android:src="@drawable/iconofantasma" 
+        android:scaleType="centerInside"
+        android:onClick="avanzar"   
+        android:layout_weight="1"   
+        android:layout_width="0dp"
+        android:layout_height="135dp"                   
+        android:background="@null"
+        android:contentDescription="1001"/>
+  
+     <ImageButton
+        android:id="@+id/avanzars"
+        android:src="@drawable/audioicon" 
+        android:scaleType="centerInside"
+        android:onClick="avanzars"   
+        android:layout_weight="1"   
+        android:layout_width="00dp"
+        android:layout_height="135dp"                   
+        android:background="@null"
+        android:contentDescription="1003"/>
+ </TableRow>
+  <TableRow>
+ <TextView 
+     android:textSize="25sp"
+     android:gravity="center"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:text="Ghost Prank"  
+     android:textColor="@color/Yellow"
+     android:background="@null"
+     android:layout_weight="1"/>
+    <TextView 
+     android:textSize="25sp"
+     android:gravity="center"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:text="SOUNDS"  
+     android:textColor="@color/Yellow"
+     android:background="@null"
+     android:layout_weight="1"/>
+ </TableRow>
+ <TableRow>
+ <TextView 
+     android:textSize="25sp"
+     android:gravity="center"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:text="Share app:"  
+     android:textColor="@color/GhostWhite"
+     android:background="@null"
+     android:layout_weight="1"/>
+    
+  <ImageButton
+        android:id="@+id/compartirapp"
+        android:src="@drawable/share2" 
+        android:scaleType="centerInside"
+        android:onClick="compartirapp"   
+        android:layout_weight="1"   
+        android:layout_width="60dp"
+        android:layout_height="120dp"   
+             
+        android:background="@null"
+        android:contentDescription="1000"/>
+ <!-- 
+  <ImageButton
+        android:id="@+id/moreapp1"
+        android:src="@drawable/moreapp1" 
+        android:scaleType="centerInside"
+        android:onClick="moreapp1"   
+        android:layout_weight="1"   
+        android:layout_width="40dp"
+        android:layout_height="80dp"         
+        android:background="@null"
+        android:contentDescription="1000"/>
+      <ImageButton
+        android:id="@+id/moreapp2"
+        android:src="@drawable/moreapp2" 
+        android:scaleType="centerInside"
+        android:onClick="moreapp2"   
+        android:layout_weight="1"   
+        android:layout_width="40dp"
+        android:layout_height="80dp"   
+        android:background="@null"
+        android:contentDescription="1000"/>
+  -->        
+  		</TableRow>
+		</TableLayout>
+        </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>

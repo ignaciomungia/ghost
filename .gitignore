@@ -1,0 +1,20 @@
+*.iml
+.gradle
+/local.properties
+.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+
+# Nunca subir el keystore ni las credenciales de firma
+*.jks
+*.keystore
+keystore.properties
+
+# google-services.json SÍ se sube al repo (hace falta para que compile en Actions).
+# Si el repo es público y prefieres no subirlo, dímelo y lo generamos como otro secret.
+*.hprof 

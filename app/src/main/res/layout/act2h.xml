@@ -1,0 +1,92 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" 
+                android:id="@+id/principal"
+                android:background="@drawable/fondotexto2">             
+<LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/surfaceView"
+               android:orientation="horizontal"
+               android:layout_centerHorizontal="true">
+               <!--  
+               android:background="@drawable/image1">  -->             
+ </LinearLayout>
+       
+ <LinearLayout  
+               android:layout_width="wrap_content"
+               android:layout_height="fill_parent"
+               android:id="@+id/layoutBotones"
+               android:layout_alignParentRight="true" 
+               android:orientation="vertical"
+               android:background="#64778899">
+        <ImageButton
+            		android:id="@+id/undoboton"
+                    android:src="@drawable/undo2" 
+                    android:onClick="undo"   
+                    android:scaleType="centerInside"  
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"                   
+                    android:background="@null"/>  
+        <ImageButton
+            		android:id="@+id/risasboton"
+                    android:src="@drawable/speaker" 
+                    android:onClick="risas"   
+                    android:scaleType="centerInside"   
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"   
+                     android:background="@null"/>
+         <ImageButton
+            		android:id="@+id/cambiasettings"                   
+                    android:onClick="cambiasettings" 
+                    android:scaleType="centerInside"    
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"   
+                    android:src="@drawable/settingicon" 
+         			android:background="@null"/>
+		<ImageButton
+            		android:id="@+id/mostrarefectos"                   
+                    android:onClick="mostrarEfectos"   
+                    android:src="@drawable/f1060min" 
+                    android:scaleType="centerInside"  
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@null"/>
+		<ImageButton
+            		android:id="@+id/guardar"                   
+                    android:onClick="guardar"   
+                    android:src="@drawable/savedisk" 
+                    android:scaleType="centerInside"  
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@null"/>
+		<ImageButton
+            		android:id="@+id/compartir"                   
+                    android:onClick="compartir"   
+                    android:src="@drawable/share" 
+                    android:scaleType="centerInside"  
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@null"/>
+        <ImageButton
+            		android:id="@+id/volverboton"                   
+                    android:onClick="volver"   
+                    android:src="@drawable/volver" 
+                    android:scaleType="centerInside"  
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@null"/>
+		
+
+       
+     </LinearLayout>                		
+</RelativeLayout>
+        
