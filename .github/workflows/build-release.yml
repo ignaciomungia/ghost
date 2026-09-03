@@ -30,6 +30,9 @@ jobs:
       - name: Decode keystore
         run: echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 -d > keystore.jks
 
+      - name: Listar alias del keystore (temporal, quitar después)
+        run: keytool -list -keystore keystore.jks -storepass "${{ secrets.KEYSTORE_PASSWORD }}"
+
       - name: Write keystore.properties
         run: |
           echo "storeFile=../keystore.jks" >> keystore.properties
