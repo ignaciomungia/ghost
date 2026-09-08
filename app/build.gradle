@@ -11,14 +11,14 @@ if (hasSigningConfig) {
 }
 
 android {
-    compileSdk 35
+    compileSdk 36
     namespace "foto.fantasma.broma"
     //buildToolsVersion '34.0.0'
 
     defaultConfig {
         applicationId "foto.fantasma.broma"
         minSdk 23
-        targetSdk 35
+        targetSdk 36
         versionCode 10935
         versionName 'A935'
     }
@@ -59,10 +59,10 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'androidx.appcompat:appcompat:1.7.1'
+    implementation 'androidx.appcompat:appcompat:1.8.0'
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation 'junit:junit:4.12'
-    implementation 'com.google.android.gms:play-services-ads:23.0.0'
+    implementation 'com.google.android.gms:play-services-ads:25.4.0'
 }
 apply plugin: 'com.google.gms.google-services'
