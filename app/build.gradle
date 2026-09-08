@@ -19,8 +19,8 @@ android {
         applicationId "foto.fantasma.broma"
         minSdk 23
         targetSdk 36
-        versionCode 10935
-        versionName 'A935'
+        versionCode 11036
+        versionName 'A936'
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
