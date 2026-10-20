@@ -19,8 +19,8 @@ android {
         applicationId "foto.fantasma.broma"
         minSdk 23
         targetSdk 36
-        versionCode 11036
-        versionName 'A936'
+        versionCode 11136
+        versionName 'B136'
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -41,6 +41,11 @@ android {
     buildTypes {
         release {
             minifyEnabled true
+            // Quita de la app final los recursos (imágenes, layouts...) que el
+            // propio code shrinker detecta que no se usan. No tiene relación
+            // con la ofuscación del código, pero solo funciona con minifyEnabled
+            // true, así que lo activamos a la vez ya que no cuesta nada extra.
+            shrinkResources true
             multiDexEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             if (hasSigningConfig) {
