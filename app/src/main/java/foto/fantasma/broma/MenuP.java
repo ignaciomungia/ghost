@@ -13,6 +13,7 @@ import android.provider.MediaStore;
 import android.app.Activity;
 import android.app.AlertDialog;
 
+import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -552,16 +553,27 @@ public class MenuP extends Activity {
         // vamos a la galeria de fotos
     private OnClickListener imagenGaleriaAccion = new OnClickListener() {
         public void onClick(View v) {
-            //PRUEBA 2020 ERROR
-          //Intent i = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI);
-			// Intent i = new Intent(Intent.ACTION_GET_CONTENT, MediaStore.Images.Media.INTERNAL_CONTENT_URI);
-			Intent i = new Intent(Intent.ACTION_GET_CONTENT);
-			i.addCategory(Intent.CATEGORY_OPENABLE);
-			i.setType("image/*");
-			//i.putExtra(Intent.EXTRA_LOCAL_ONLY,true);
-            startActivityForResult(i, SELECT_PICTURE);
-          }       	
-        };    
+			// Selector de fotos del sistema (Android Photo Picker): no necesita
+			// ningún permiso de almacenamiento/multimedia, porque es el propio
+			// sistema el que accede a la galería y solo nos da permiso de
+			// lectura sobre la foto que el usuario elige. Es lo que exige la
+			// política de Google Play en vez de pedir READ_MEDIA_IMAGES/VIDEO.
+			try {
+				Intent i = new Intent(MediaStore.ACTION_PICK_IMAGES);
+				i.setType("image/*");
+				startActivityForResult(i, SELECT_PICTURE);
+			} catch (ActivityNotFoundException e) {
+				// Dispositivo/versión sin selector de fotos del sistema disponible
+				// (muy antiguo o sin Google Play actualizado): usamos el selector
+				// clásico como alternativa. Tampoco necesita el permiso, porque
+				// sigue siendo un selector del sistema.
+				Intent iFallback = new Intent(Intent.ACTION_GET_CONTENT);
+				iFallback.addCategory(Intent.CATEGORY_OPENABLE);
+				iFallback.setType("image/*");
+				startActivityForResult(iFallback, SELECT_PICTURE);
+			}
+          }
+        };
         
 	 private OnClickListener imagenCamaraAccion = new OnClickListener() {
 		 public void onClick(View v) {

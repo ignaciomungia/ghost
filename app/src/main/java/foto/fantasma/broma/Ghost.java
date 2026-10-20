@@ -361,43 +361,11 @@ public class Ghost extends Activity {
 		// --- Manejo de permisos de Almacenamiento/Multimedia ---
 		// Comprobamos la versión de Android
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) { // Android 13 (API 33) o superior
-			// Para Android 13+, solicitamos los permisos de medios granulares si necesitamos leer de la galería
-			// Si solo estás CREANDO archivos propios (ej. una foto que toma tu app), a menudo NO necesitas estos permisos,
-			// y debes usar MediaStore API para guardar la foto directamente.
-			boolean hasReadMediaImages = ContextCompat.checkSelfPermission(this,
-					Manifest.permission.READ_MEDIA_IMAGES) == PackageManager.PERMISSION_GRANTED;
-			boolean hasReadMediaVideo = ContextCompat.checkSelfPermission(this,
-					Manifest.permission.READ_MEDIA_VIDEO) == PackageManager.PERMISSION_GRANTED;
-			boolean hasReadMediaAudio = ContextCompat.checkSelfPermission(this,
-					Manifest.permission.READ_MEDIA_AUDIO) == PackageManager.PERMISSION_GRANTED;
-
-			// Prepara una lista de permisos que realmente necesitas y que no tienes
-			String[] permissionsToRequest = new String[3]; // Max 3, ajusta según lo que necesites
-			int index = 0;
-			if (!hasReadMediaImages) {
-				permissionsToRequest[index++] = Manifest.permission.READ_MEDIA_IMAGES;
-			}
-			if (!hasReadMediaVideo) {
-				permissionsToRequest[index++] = Manifest.permission.READ_MEDIA_VIDEO;
-			}
-			if (!hasReadMediaAudio) {
-				permissionsToRequest[index++] = Manifest.permission.READ_MEDIA_AUDIO;
-			}
-
-			// Si hay permisos pendientes, los solicitamos
-			if (index > 0) {
-				String[] finalPermissions = new String[index];
-				System.arraycopy(permissionsToRequest, 0, finalPermissions, 0, index);
-				ActivityCompat.requestPermissions(this,
-						finalPermissions,
-						PERMISSIONS_REQUEST_MEDIA_OR_STORAGE);
-			}
-
-			// Nota: El permiso WRITE_EXTERNAL_STORAGE ya no se solicita ni se usa para la mayoría de los casos
-			// en Android 13+. Si tu aplicación CREA sus propios archivos multimedia (fotos/videos tomados por la app),
-			// usa MediaStore API directamente sin solicitar permisos de almacenamiento.
-			// Si CREA archivos NO multimedia (ej. PDFs, TXT) que son propios de la app, lo ideal es usar SAF o los
-			// directorios específicos de la app, sin permisos de almacenamiento.
+			// Ya NO pedimos READ_MEDIA_IMAGES/VIDEO/AUDIO aquí: Google Play exige
+			// usar el selector de fotos del sistema en vez de este permiso cuando
+			// (como en nuestro caso) el selector es suficiente para la función de
+			// la app. El selector de galería (ver imagenGaleriaAccion en MenuP) ya
+			// nos da acceso de lectura a la foto elegida sin necesitar este permiso.
 
 		} else { // Para versiones anteriores a Android 13 (API < 33, ej. Android 6 a Android 12)
 			// Aquí es donde tu permiso WRITE_EXTERNAL_STORAGE sigue siendo relevante
