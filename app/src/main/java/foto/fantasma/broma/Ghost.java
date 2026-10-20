@@ -45,6 +45,10 @@ public class Ghost extends Activity {
 	private ImageButton botonAvanza;
 	private int o;
 	private InterstitialAd interstitial;
+	// Cuenta las acciones de navegación (avanzar/avanzars) desde el último
+	// anuncio mostrado, para no superar el máximo de 1 intersticial cada 2
+	// acciones del usuario que exige la política de AdMob sobre intersticiales.
+	private static int accionesDesdeUltimoAnuncio = 0;
 	private FrameLayout adContainerView;
 	AdView vista;
 	AlertDialog alertDialogt;
@@ -209,32 +213,30 @@ public class Ghost extends Activity {
     	/*if (enlace.equalsIgnoreCase("N")){
     		alertDialog = builder.create();
         	alertDialog.show();	} else {*/
-		Intent myIntent = new Intent(Ghost.this, MenuP.class);
-
-		int o = 0;
-		if (r1.isChecked()) {
-			o = 1;
-		} else if (r2.isChecked()) {
-			o = 2;
-		}
-		myIntent.putExtra("orientacion", o);
-		startActivity(myIntent);
-		displayInterstitial();
+		final int o = r2.isChecked() ? 2 : (r1.isChecked() ? 1 : 0);
+		// Mostramos el intersticial (si procede) antes de navegar, y solo
+		// arrancamos MenuP cuando el anuncio se cierra o falla al mostrarse;
+		// así evitamos lanzarlo sobre una Activity que ya se está yendo.
+		displayInterstitial(() -> irAMenuP(o));
 
 		//}
 	}
 
 	public void avanzars(View v) {
-		Intent myIntent = new Intent(Ghost.this, Sounds.class);
-		int o = 0;
-		if (r1.isChecked()) {
-			o = 1;
-		} else if (r2.isChecked()) {
-			o = 2;
-		}
+		final int o = r2.isChecked() ? 2 : (r1.isChecked() ? 1 : 0);
+		displayInterstitial(() -> irASounds(o));
+	}
+
+	private void irAMenuP(int o) {
+		Intent myIntent = new Intent(Ghost.this, MenuP.class);
 		myIntent.putExtra("orientacion", o);
 		startActivity(myIntent);
-		displayInterstitial();
+	}
+
+	private void irASounds(int o) {
+		Intent myIntent = new Intent(Ghost.this, Sounds.class);
+		myIntent.putExtra("orientacion", o);
+		startActivity(myIntent);
 	}
 
 	public void compartirapp(View v) {
@@ -259,20 +261,39 @@ public class Ghost extends Activity {
 		   interstitial.show();
 		 }
 	   }*/
-	// Invoca displayInterstitial() cuando est preparado para mostrar un intersticial.
+	// Mantenido por compatibilidad: muestra el intersticial sin nada que hacer
+	// después de cerrarlo.
 	public void displayInterstitial() {
-		if (interstitial != null) {
+		displayInterstitial(null);
+	}
+
+	// Muestra el intersticial (respetando el límite de frecuencia de AdMob de
+	// máximo 1 anuncio cada 2 acciones) y, cuando se cierra o falla al
+	// mostrarse, ejecuta alTerminar. Si no toca mostrar anuncio o no hay uno
+	// cargado, ejecuta alTerminar inmediatamente. Así nunca navegamos antes de
+	// que el anuncio termine de mostrarse.
+	public void displayInterstitial(final Runnable alTerminar) {
+		accionesDesdeUltimoAnuncio++;
+		boolean tocaAnuncio = accionesDesdeUltimoAnuncio >= 2;
+
+		if (tocaAnuncio && interstitial != null) {
 			interstitial.setFullScreenContentCallback(new FullScreenContentCallback() {
 				@Override
 				public void onAdDismissedFullScreenContent() {
 					// Called when fullscreen content is dismissed.
 					//Log.d("TAG", "The ad was dismissed.");
+					if (alTerminar != null) {
+						alTerminar.run();
+					}
 				}
 
 				@Override
 				public void onAdFailedToShowFullScreenContent(AdError adError) {
 					// Called when fullscreen content failed to show.
 					//Log.d("TAG", "The ad failed to show.");
+					if (alTerminar != null) {
+						alTerminar.run();
+					}
 				}
 
 				@Override
@@ -281,10 +302,15 @@ public class Ghost extends Activity {
 					// Make sure to set your reference to null so you don't
 					// show it a second time.
 					interstitial = null;
+					accionesDesdeUltimoAnuncio = 0;
 					//Log.d("TAG", "The ad was shown.");
 				}
 			});
 			interstitial.show(this);
+		} else if (alTerminar != null) {
+			// No toca anuncio todavía o no hay ninguno cargado: seguimos sin
+			// bloquear la navegación.
+			alTerminar.run();
 		}
 	}
 
