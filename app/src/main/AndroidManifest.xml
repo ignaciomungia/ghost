@@ -7,9 +7,11 @@
         android:maxSdkVersion="32" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:maxSdkVersion="32" />
-    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
-    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
-    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <!-- READ_MEDIA_IMAGES/VIDEO/AUDIO quitados: Google Play no permite pedir estos
+         permisos si el selector del sistema (el que ya usamos para elegir foto de
+         la galería) es suficiente, que es nuestro caso. Sin este permiso la app
+         sigue pudiendo leer la foto que el usuario elige, porque el propio selector
+         le da permiso de lectura sobre ese archivo concreto. -->
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
